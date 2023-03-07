@@ -18,11 +18,11 @@ This tutorial outlines the post-install configuration of the open-source help de
 <h2>Configuration Steps</h2>
 
 <p>
-
-The post configuration setup of the osTicket system is shown in this tutorial.
+This tutorial illustrates the process for configuring the osTicket system post-installation. 
  
-Okay, fantastic! osTicket has been implemented from scratch. We will now concentrate on some post-installation setup and perform some system administration. New roles will first be configured within the help desk. Go to the Admin panel -> Agents -> Roles to accomplish this. We'll establish the Supreme Admin. Enter the name of the new role after selecting "Add new role." <br />
-Note: When you are in the Admin Panel at the top right will say Agent Panel and vice versa.
+Following the implementation of osTicket from scratch, attention is turned towards system administration and post-installation setup. 
+ 
+Initially, new roles are configured within the help desk by accessing the Admin panel, selecting "Agents", and then "Roles". The first role to be established is the "Supreme Admin". To do so, click on "Add new role" and enter the name of the new role. It is worth noting that when navigating between the Agent and Admin Panels, the title in the top-right corner of the screen will update accordingly.
 </p>
 
 <p>
@@ -30,7 +30,7 @@ Note: When you are in the Admin Panel at the top right will say Agent Panel and 
 </p>
 
 <p>
-Additionally, you can alter any roles’ permissions. In this instance, they will have full permissions because we are generating a Supreme Admin. Remember that an agent's permissions are determined by their role, thus not every agent will have unrestricted access. If you correctly followed the instructions, your screen should appear like this. As you can see, we were successful in setting up the role of "Supreme Admin".
+It is possible to modify the permissions of any role, including the newly established "Supreme Admin" role, which has full permissions. It's important to note that an agent's level of access is determined by their assigned role, meaning not all agents will have unrestricted access. If the instructions have been followed correctly, the resulting screen should resemble the one depicted. As illustrated, the setup of the "Supreme Admin" role was successful.
 </p>
 
 <p>
@@ -38,7 +38,7 @@ Additionally, you can alter any roles’ permissions. In this instance, they wil
 </p>
 
 <p>
-While in the Admin Panel go to the agents tab and click the "Departments" button. We will be able to establish a new department here. Depending on their designated job within the helpdesk, each Agent is assigned to a particular department. The "System Administrators" department will be established in this instance, and this is where the Supreme Admins will be identified. In the departments tab, you can configure additional particular parameters like SLAs, managers, and other email preferences.
+While in the Admin Panel, navigate to the Agents tab and locate the "Departments" button. This section allows the creation of new departments, with each Agent being assigned to a specific department based on their role within the helpdesk. In this particular case, a new department called "System Administrators" will be created, and the Supreme Admins will be identified here. Within the departments tab, it is possible to customize specific parameters such as Service Level Agreements (SLAs), managers, and other email preferences.
 </p>
 
 <p>
@@ -46,7 +46,7 @@ While in the Admin Panel go to the agents tab and click the "Departments" button
 </p>
 
 <p>
-We will establish a new team after configuring a new department. Teams give you the ability to assemble agents from several departments; for example, you may assemble an A team of the best technicians from a given department. You could, for instance, design a support topic that pertains to a product you make and assign it to a group of agents who are experts in that product. Go to Agents -> Teams to form a team. In this example, a Level II support team will be created as a Level I support team has already been set up by default.
+Once a new department has been configured, it is possible to establish a new team. Teams enable the assembly of agents from multiple departments. For instance, one could assemble an "A" team comprising the best technicians from a specific department. Furthermore, support topics can be assigned to a group of agents with relevant expertise in a particular product. To create a team, navigate to Agents -> Teams. In this particular case, a Level II support team will be formed, as a default Level I support team has already been established.
 </p>
 
 <p>
@@ -63,7 +63,7 @@ Ensure that “require registration and login to create tickets” is turned off
 </p>
 
 <p>
-Now let's create some Agents. The help desk personnel who really work on solving tickets are known as agents. When tickets are routed to a department, agents are given a primary department and position. Agents may be granted access to departments other than their own, and depending on what department they are in, they may also have varied tasks. In the Agents tab, you may allocate Teams, Access, and Permissions. To begin, navigate to Admin Panel -> Agents -> Add new agent and create some agents of your choice.
+The next step is to create Agents, who are responsible for resolving tickets within the helpdesk. Agents are typically assigned a primary department and position when tickets are routed to a department. While agents may be granted access to other departments, their responsibilities may differ based on their primary department. Within the Agents tab, it is possible to assign Teams, Access, and Permissions. To create Agents, navigate to the Admin Panel, select Agents, and click "Add new agent" to create new Agents as desired.
 </p>
 
 <p>
@@ -79,14 +79,19 @@ Now let's create some Agents. The help desk personnel who really work on solving
 </p>
 
 <p>
-Your agents should show like this once you click create.
-
+Upon clicking "Create", the newly created Agents should appear as shown in the following image.
+</p>
+ 
 <p>
 <img src="https://i.imgur.com/whLsBrk.png" height="80%" width="80%" alt="New Agents"/>
 </p>
 
 <p>
-We'll create users after creating some agents. Users are clients who create tickets when they encounter problems. A user can be recognized by their email address. Follow this guide to create a user. Agent Panel -> Users -> User Directory -> Add User. After creating your user or users, your user directory should look like this:
+After creating Agents, the next step is to create Users, who are clients that submit tickets when they encounter problems. A User is identified by their email address. Follow the steps below to create a User:
+
+Navigate to the Agent Panel, select Users, and click on "User Directory".
+Click "Add User" to create a new User or Users.
+After creating one or more Users, the User Directory should appear as shown in the following image:
 </p>
 
 <p>
@@ -94,7 +99,7 @@ We'll create users after creating some agents. Users are clients who create tick
 </p>
 
 <p>
-SLAs Plans specify how long the help desk is supposed to take to resolve a particular ticket. By navigating to Admin Panel -> Manage -> SLA Plans, SLA Plans can be generated. Every SLA has a schedule, and during that schedule, a grace period is allowed. SEV-A in this instance has a 24/7 and an hour-long grace period.
+SLA Plans define the expected time frame within which a particular ticket is to be resolved by the help desk. To create SLA Plans, navigate to the Admin Panel and select "Manage" followed by "SLA Plans". Each SLA Plan consists of a schedule and a grace period. For example, the SEV-A SLA Plan may have a 24/7 schedule with an hour-long grace period.
 </p>
 
 <p>
@@ -110,7 +115,7 @@ Here is an example of how different SLA Plans can look
 </p>
 
 <p>
-Users can organize their tickets using the help topics. If consumers are unable to access mobile banking, we have created a help topic for them,"Business Critical Outage" is an example of this and can be viewed below.
+Help Topics enable Users to organize their tickets based on specific issues they are experiencing. For instance, if a User is unable to access mobile banking, a relevant Help Topic may be "Business Critical Outage", which can be accessed from the following location:
 </p>
 
 <p>
