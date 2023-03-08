@@ -121,3 +121,7 @@ Help Topics enable Users to organize their tickets based on specific issues they
 <p>
 <img src="https://i.imgur.com/Xe00YPw.png" height="80%" width="80%" alt="Help Topic"/>
 </p>
+
+<p>
+Throughout this tutorial, we have acquired the necessary skills to construct roles, departments, and teams, and assign agents to each one of them. Additionally, we have been introduced to the process of granting varying levels of permissions to different roles and users. Furthermore, we have understood the mechanism of creating users who can access the helpdesk and initiate ticket requests. It is important to understand the interaction between users and agents in a helpdesk environment to gain a comprehensive understanding of its functioning. With the knowledge acquired, you should now have the ability to configure your helpdesk as per your requirements.
+</p>
