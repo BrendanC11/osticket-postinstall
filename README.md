@@ -26,7 +26,7 @@ Initially, new roles are configured within the help desk by accessing the Admin 
 </p>
 
 <p>
-<img src="https://i.imgur.com/DoUc9L7.png" height="80%" width="80%" alt="Adding a new role"/>
+<img src="https://i.imgur.com/BnzCnIX.png" height="80%" width="80%" alt="Adding a new role"/>
 </p>
 
 <p>
@@ -34,7 +34,7 @@ It is possible to modify the permissions of any role, including the newly establ
 </p>
 
 <p>
-<img src="https://i.imgur.com/kMXFZpC.png" height="80%" width="80%" alt="Surpreme Admin Role Established"/>
+<img src="https://i.imgur.com/hAKdNgf.png" height="80%" width="80%" alt="Surpreme Admin Role Established"/>
 </p>
 
 <p>
@@ -42,7 +42,7 @@ While in the Admin Panel, navigate to the Agents tab and locate the "Departments
 </p>
 
 <p>
-<img src="https://i.imgur.com/xDEmbcI.png" height="80%" width="80%" alt="System Administrators Department"/>
+<img src="https://i.imgur.com/xPUwQ5x.png" height="80%" width="80%" alt="System Administrators Department"/>
 </p>
 
 <p>
@@ -50,7 +50,7 @@ Once a new department has been configured, it is possible to establish a new tea
 </p>
 
 <p>
-<img src="https://i.imgur.com/snBZtLl.png" height="80%" width="80%" alt="New Team"/>
+<img src="https://i.imgur.com/jg4LlnE.png" width="80%" alt="New Team"/>
 </p>
 
 <p>
@@ -59,7 +59,7 @@ Ensure that “require registration and login to create tickets” is turned off
 </p>
 
 <p>
-<img src="https://i.imgur.com/WraSq1M.png" height="80%" width="80%" alt="Allowing any user to create a ticket"/>
+<img src="https://i.imgur.com/t426RLW.png" width="80%" alt="Allowing any user to create a ticket"/>
 </p>
 
 <p>
@@ -67,15 +67,15 @@ The next step is to create Agents, who are responsible for resolving tickets wit
 </p>
 
 <p>
-<img src="https://i.imgur.com/Uv9SdIp.png" height="80%" width="80%" alt="Creating an agent"/>
+<img src="https://i.imgur.com/vLal9IA.png" height="80%" width="80%" alt="Creating an agent"/>
 </p>
 
 <p>
-<img src="https://i.imgur.com/5WzNfcB.png" height="80%" width="80%" alt="Agent acess"/>
+<img src="https://i.imgur.com/FjfDrwD.png" width="80%" alt="Agent acess"/>
 </p>
 
 <p>
-<img src="https://i.imgur.com/68snH6Z.png" height="80%" width="80%" alt="Agent team"/>
+<img src="https://i.imgur.com/szb9iqJ.png" height="80%" width="80%" alt="Agent team"/>
 </p>
 
 <p>
@@ -83,7 +83,7 @@ Upon clicking "Create", the newly created Agents should appear as shown in the f
 </p>
  
 <p>
-<img src="https://i.imgur.com/whLsBrk.png" height="80%" width="80%" alt="New Agents"/>
+<img src="https://i.imgur.com/MWYXO0T.png" height="80%" width="80%" alt="New Agents"/>
 </p>
 
 <p>
@@ -95,7 +95,7 @@ After creating one or more Users, the User Directory should appear as shown in t
 </p>
 
 <p>
-<img src="https://i.imgur.com/gruInlK.png" height="80%" width="80%" alt="New users"/>
+<img src="https://i.imgur.com/o7bzRnF.png" height="80%" width="80%" alt="New users"/>
 </p>
 
 <p>
@@ -103,7 +103,7 @@ SLA Plans define the expected time frame within which a particular ticket is to 
 </p>
 
 <p>
-<img src="https://i.imgur.com/fuAvSbu.png" height="80%" width="80%" alt="Creating an SLA Plan"/>
+<img src="https://i.imgur.com/ESyO8KP.png" height="80%" width="80%" alt="Creating an SLA Plan"/>
 </p>
 
 <p>
@@ -111,7 +111,7 @@ Here is an example of how different SLA Plans can look
 </p>
 
 <p>
-<img src="https://i.imgur.com/hMcTAmP.png" height="80%" width="80%" alt="Different SLAS"/>
+<img src="https://i.imgur.com/R5SQkEt.png" height="80%" width="80%" alt="Different SLAS"/>
 </p>
 
 <p>
@@ -119,5 +119,5 @@ Help Topics enable Users to organize their tickets based on specific issues they
 </p>
 
 <p>
-<img src="https://i.imgur.com/goUdv13.png" height="80%" width="80%" alt="Help Topic"/>
+<img src="https://i.imgur.com/Xe00YPw.png" height="80%" width="80%" alt="Help Topic"/>
 </p>
